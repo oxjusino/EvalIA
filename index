@@ -2,35 +2,60 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EvalIA</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f7f9fb;
+      color: #333;
     }
+
+    img {
+      max-width: 240px;
+      margin-bottom: 20px;
+    }
+
     h1 {
-      color: #0097A7;
+      font-size: 2em;
+      margin: 0;
     }
+
+    p {
+      margin: 10px 0 30px 0;
+      font-size: 1.1em;
+      text-align: center;
+    }
+
     button {
-      background-color: #0097A7;
+      background-color: #1dbfcc; /* cyan tone from your palette */
       color: white;
-      padding: 15px 30px;
-      font-size: 18px;
       border: none;
-      border-radius: 5px;
+      padding: 15px 30px;
+      font-size: 1em;
+      border-radius: 6px;
       cursor: pointer;
     }
+
     button:hover {
-      background-color: #007C91;
+      background-color: #17a2b8;
     }
   </style>
 </head>
 <body>
-  <img src="evalia-logo.PNG" alt="Logo de EvalIA" style="max-width: 240px; margin-bottom: 20px;"/>
+
+  <img src="evalia-logo.png" alt="Logo de EvalIA" />
+
   <h1>EvalIA</h1>
-  <button onclick="alert('Aquí comenzarás la evaluación')">Comenzar evaluación</button>
+  <p>Claridad visual para decisiones inteligentes</p>
+
+  <button>Comenzar evaluación</button>
+
 </body>
 </html>
