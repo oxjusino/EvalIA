@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EvalIA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f8f9fa;
+    }
+    h1 {
+      color: #0097A7;
+    }
+    button {
+      background-color: #0097A7;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #007C91;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://via.placeholder.com/120x120?text=Logo" alt="Logo de EvalIA" />
+  <h1>EvalIA</h1>
+  <p><em>Claridad visual para decisiones inteligentes</em></p>
+  <button onclick="alert('Aquí comenzarás la evaluación')">Comenzar evaluación</button>
+</body>
+</html>
