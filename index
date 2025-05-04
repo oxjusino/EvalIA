@@ -29,7 +29,7 @@
   </style>
 </head>
 <body>
-  <img src="https://via.placeholder.com/120x120?text=Logo" alt="Logo de EvalIA" />
+  <img src="evalia-logo.png" alt="Logo de EvalIA" style="max-width: 240px; margin-bottom: 20px;" />
   <h1>EvalIA</h1>
   <p><em>Claridad visual para decisiones inteligentes</em></p>
   <button onclick="alert('Aquí comenzarás la evaluación')">Comenzar evaluación</button>
