@@ -1,1 +1,4 @@
 git checkout -b gh-pages
+git add index.html
+git commit -m "Add index.html for GitHub Pages"
+git push origin gh-pages
